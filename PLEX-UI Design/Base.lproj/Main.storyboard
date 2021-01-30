@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PLEX_UI_Design" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Yb1-IA-okL">
+                                <rect key="frame" x="32" y="30" width="350" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="Fo0-Uy-mmV"/>
+                                    <constraint firstAttribute="height" constant="130" id="MbX-cB-eXY"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="340" id="UTH-Rw-1Xb"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="180" id="bTQ-UI-jP7"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6je-sm-xth">
+                                <rect key="frame" x="32" y="235" width="350" height="50"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="Gq8-4c-0he"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="dft-ld-JsQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="   Continue with Apple">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="applelogo" catalog="system" renderingMode="original"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94S-V2-m3y">
+                                <rect key="frame" x="32" y="305" width="350" height="50"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9Ne-Vc-egb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="vj3-Bm-HR5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="   Continue with Facebook">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="flame" catalog="system" renderingMode="original"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4d5-eL-vTl">
+                                <rect key="frame" x="32" y="375" width="350" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="GmW-Gm-ieo"/>
+                                    <constraint firstAttribute="height" constant="50" id="Iy2-Hh-Qnh"/>
+                                </constraints>
+                                <state key="normal" title="   Continue with Google">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="bookmark.circle" catalog="system" renderingMode="original"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvT-kD-JhV">
+                                <rect key="frame" x="32" y="445" width="350" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="85b-yD-GLD"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="gLD-iF-ZGV"/>
+                                </constraints>
+                                <state key="normal" title="   Continue with Email">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="circle.grid.cross.down.fill" catalog="system" renderingMode="original"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Amw-pe-MmW">
+                                <rect key="frame" x="157" y="695" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="2RD-qt-Z8b"/>
+                                    <constraint firstAttribute="height" constant="50" id="lsi-6q-JK6"/>
+                                </constraints>
+                                <state key="normal" title="Why Sign In?">
+                                    <color key="titleColor" white="0.27000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vZ-ad-FqA">
+                                <rect key="frame" x="25.333333333333343" y="575" width="363.33333333333326" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="Ipi-ec-ewq"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Yhs-0b-Rqu"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="290" id="w1j-jx-rCb"/>
+                                </constraints>
+                                <string key="text">By creating an account or continuing to use a Plex application, website, or software, you acknowledge and agree that you have accepted the Terms of Services and have reviewed the Privacy Policy.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.1623941701608938" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="94S-V2-m3y" firstAttribute="top" secondItem="6je-sm-xth" secondAttribute="bottom" constant="20" id="1wp-68-egm"/>
+                            <constraint firstItem="Amw-pe-MmW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3dL-t8-fg2"/>
+                            <constraint firstItem="Yb1-IA-okL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="80H-f1-lNB"/>
+                            <constraint firstItem="Yb1-IA-okL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GEJ-0n-zUH"/>
+                            <constraint firstItem="94S-V2-m3y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KVL-Ji-RSb"/>
+                            <constraint firstItem="GvT-kD-JhV" firstAttribute="top" secondItem="4d5-eL-vTl" secondAttribute="bottom" constant="20" id="MUE-lZ-lgv"/>
+                            <constraint firstItem="4d5-eL-vTl" firstAttribute="top" secondItem="94S-V2-m3y" secondAttribute="bottom" constant="20" id="Nng-FA-dgb"/>
+                            <constraint firstItem="6je-sm-xth" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rur-zQ-PFV"/>
+                            <constraint firstItem="GvT-kD-JhV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wp7-MT-bat"/>
+                            <constraint firstItem="94S-V2-m3y" firstAttribute="top" secondItem="6je-sm-xth" secondAttribute="bottom" constant="20" id="ZkY-Ji-i4e"/>
+                            <constraint firstItem="5vZ-ad-FqA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hSe-DO-gTH"/>
+                            <constraint firstItem="5vZ-ad-FqA" firstAttribute="top" secondItem="GvT-kD-JhV" secondAttribute="bottom" constant="80" id="hWa-OQ-lqy"/>
+                            <constraint firstItem="4d5-eL-vTl" firstAttribute="top" secondItem="94S-V2-m3y" secondAttribute="bottom" constant="20" id="pC8-3g-2AQ"/>
+                            <constraint firstItem="6je-sm-xth" firstAttribute="top" secondItem="Yb1-IA-okL" secondAttribute="bottom" constant="75" id="pN5-0C-dnQ"/>
+                            <constraint firstItem="4d5-eL-vTl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pOg-YT-P6s"/>
+                            <constraint firstItem="5vZ-ad-FqA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pS9-Hb-7FD"/>
+                            <constraint firstItem="Yb1-IA-okL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qxA-Xe-8G5"/>
+                            <constraint firstItem="Amw-pe-MmW" firstAttribute="top" secondItem="5vZ-ad-FqA" secondAttribute="bottom" constant="40" id="tDD-db-w4S"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194.20289855072465" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="applelogo" catalog="system" width="103" height="128"/>
+        <image name="bookmark.circle" catalog="system" width="128" height="121"/>
+        <image name="circle.grid.cross.down.fill" catalog="system" width="128" height="125"/>
+        <image name="flame" catalog="system" width="108" height="128"/>
+        <image name="logo" width="341.33334350585938" height="341.33334350585938"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
